@@ -605,6 +605,7 @@ eventDecls (EventData decl) = unsafePartial do
                                       )
                                   ]
 
+                              -- TODO(srghma): there is no need for these two lines?
                               , Gen.exprCtor _nothing
                               , Gen.exprCtor _nothing
                               ]
